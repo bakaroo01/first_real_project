@@ -1,0 +1,161 @@
+ 
+        body {
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .headerContainer {
+            background-color: #0171f9;
+        }
+
+        .header {
+            height: 80px;
+            background-color: #0171f9;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 100px 0 100px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .header-links {
+            width: 50%;
+
+        }
+
+        .header-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+        }
+        .header-links a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 15px;
+            transition: .3s;
+        }
+
+        .header-links a:hover{
+            background-color: #2386fe;
+        }
+        
+
+        .logo img{
+            width: 150px;
+        }
+      
+        
+        
+
+       .btn {
+         background-color: #EE6268;
+            padding: 5px 15px;
+            border-radius: 15px;
+            color: #ffffff;
+            border: none;
+
+       }
+        .btn:hover{
+            background-color: #f2858c;
+        }
+        
+      .Landing-Page {
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    color: #ffffff;
+    border-radius: 0 0 50px 50px;
+}
+
+.Landing-Page-Text-left-section {
+    width: 400px;
+}
+
+.Landing-Page-Text p {
+    line-height: 1.6;
+}
+
+.Landing-Page-Image img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.Landing-Page-Search input {
+    
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+}
+
+
+.Landing-Page-Search button {
+    position: absolute;
+    left: 200px;
+    height: 40px;
+}
+.landing-Page-Image-cointainer img {
+    border-radius: 20px;
+    width: 250px;
+}
+
+
+
+
+
+.Trending-container {
+    padding: 25px 50px;
+}
+
+.trending-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.trending-header h1{
+margin-top: 0;
+}
+
+.Trending-cards {
+    display: flex;
+    gap: 12px;
+
+
+
+}
+
+.Trending-container span {
+    color: #ee626b;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.card {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+}
+.card .Thumb {
+    border-radius: 20px 20px 0 0;
+
+
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    align-items: center;
+
+}
+
+.card-info img {
+    width: 50px;
+}
