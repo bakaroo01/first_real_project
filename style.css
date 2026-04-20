@@ -1,6 +1,8 @@
  
         body {
+            padding: 0;
             margin: 0;
+            box-sizing: border-box;
             font-family: "Roboto", sans-serif;
         }
 
@@ -16,7 +18,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 30px 100px 0 100px;
-            max-width: 1200px;
+            max-width: 1300px;
             margin: auto;
         }
         .header-links {
@@ -34,6 +36,7 @@
             text-decoration: none;
             color: #fff;
             padding: 10px 15px;
+            border-radius: 50px;
             transition: .3s;
         }
 
@@ -50,11 +53,16 @@
         
 
        .btn {
-         background-color: #EE6268;
-            padding: 5px 15px;
-            border-radius: 15px;
-            color: #ffffff;
-            border: none;
+    border-radius: 50px;
+    height: 52px;
+    border: none;
+    font-weight:600;
+    font-size: medium;
+    padding: 0 20px;
+    background-color: #EE626B;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .3s;
 
        }
         .btn:hover{
@@ -70,6 +78,9 @@
     color: #ffffff;
     border-radius: 0 0 50px 50px;
 }
+
+
+
 
 .Landing-Page-Text-left-section {
     width: 400px;
@@ -194,19 +205,20 @@ margin-top: 0;
     margin-top: 150px;
 }
 
-.category  {
+.category .categoryHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.category .card .cardImg {
+.category .Card .cardImg {
     position: relative;
     top: -20px;
 
 }
 
-.category  {
+
+.category .Card .genre {
     background-color: #0171F9;
     text-align: center;
     color: #fff;
@@ -216,39 +228,26 @@ margin-top: 0;
     border-radius: 20px 20px 0 0;
 }
 
-.card{
-     background-color: #0171F9;
-    text-align: center;
-    color: #fff;
-    padding: 15px 0 30px 0;
-    font-size: large;
-    font-weight: 500;
-    border-radius: 20px 20px 0 0;
-}
 
-.genre{
-     background-color: #0171F9;
-    text-align: center;
-    color: #fff;
-    padding: 15px 0 30px 0;
-    font-size: large;
-    font-weight: 500;
-    border-radius: 20px 20px 0 0;
-}
+
 
 
 .category .categoryCards{
     margin-top: 30px;
+    display: flex;
+    gap: 20px;  
 }
+
+
 .card{
     transition: .3s;
 
 }
-.category .card:hover{
+.category .Card:hover{
     transform: scale(1.05);
-}
+} 
 
-/* testing */
+
 /* footer */
 
 .footerContainer{
@@ -268,4 +267,50 @@ margin-top: 0;
     font-weight: 500;
     font-size: larger;
 }
+
+/* form */
+.formContainer {
+    display: flex;
+    padding: 40px;
+    margin: auto;
+    justify-content: center;
+    max-width: 1300px;
+
+}
+
+
+
+.formContainer form{
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
+    width: 400px;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 450px;
+}
+
+.formContainer form input, textarea {
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: large;
+}
+
+.formContainer input {
+    height: 50px;
+    border-radius: 50px;
+}
+
+.formContainer textarea {
+    border-radius: 20px;
+    padding-top: 10px;
+    resize: none;
+    
+
+
+}
+
 
