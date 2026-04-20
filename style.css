@@ -159,3 +159,113 @@ margin-top: 0;
 .card-info img {
     width: 50px;
 }
+
+
+.cardImg img {
+    border-radius: 20px;
+}
+
+.mostCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mostCards .cardInfo .genre {
+    margin-bottom: 0;
+    color: gray;
+}
+
+.mostContainer {
+    background-color: #EEEEEE;
+    margin-top: 200px;
+    padding: 50px;
+    border-radius: 100px;
+
+}
+
+.mostContainer .MostPlayed .category {
+    max-width: 1300px;
+    margin: auto;
+
+}
+
+.categoryContainer {
+    margin-top: 150px;
+}
+
+.category  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category .card .cardImg {
+    position: relative;
+    top: -20px;
+
+}
+
+.category  {
+    background-color: #0171F9;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0 30px 0;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 20px 20px 0 0;
+}
+
+.card{
+     background-color: #0171F9;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0 30px 0;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 20px 20px 0 0;
+}
+
+.genre{
+     background-color: #0171F9;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0 30px 0;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.category .categoryCards{
+    margin-top: 30px;
+}
+.card{
+    transition: .3s;
+
+}
+.category .card:hover{
+    transform: scale(1.05);
+}
+
+
+/* footer */
+
+.footerContainer{
+    background-color: #0171F9;
+    height: 150px;
+    border-radius: 100px 100px 0 0;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: larger;
+}
+
